@@ -1,3 +1,6 @@
+//Full Adder using two Half Adder
+
+
 module Half_adder(s,c,a,b);
 input a,b;
 output s,c;
@@ -18,7 +21,7 @@ or(Co,w2,w3);
 
 endmodule
 
-////////////////
+//////// TB ////////
 
 module TB_FA();
 reg a,b,c_in;
